@@ -2,7 +2,6 @@ require 'csv'
 
 def command_to_add_user first_name, last_name, email
   # "SELECT COUNT(*) FROM users;" # Write the correct SQL statement here
-  "INSERT INTO users VALUES (null,'#{first_name}','#{last_name}','#{email}');"
 end
 
 def run_command sql
